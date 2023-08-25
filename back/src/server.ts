@@ -1,5 +1,4 @@
-import { EnvironmentConfig } from "./config/environment";
-import { getStartAplication } from "./config/start-aplication";
+import { EnvironmentConfig, getStartAplication } from "./config";
 
 (async () => {
   await EnvironmentConfig.register();

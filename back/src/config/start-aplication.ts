@@ -2,9 +2,11 @@ import express from "express";
 
 import { router } from "../router";
 import { EnvironmentConfig } from "./environment";
+import { startCors } from "./middlewares";
 
 export function getStartAplication() {
   const app = express();
+  startCors(app);
 
   app.get("/health", (req, res) => {
     return res.json({ message: "Ok" });

@@ -1,4 +1,6 @@
 export interface IAddBeneficiario {
   nome: string
-  idade: number
+  idade: number | string
+  id?: number
+  valorPlano?: number
 }

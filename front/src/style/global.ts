@@ -6,14 +6,18 @@ export const GlobalStyle = createGlobalStyle`
         /* Default  */
         --white: #fff;        
         --black: #000;        
-        --light-100: #f5f5f5;      
+        --light: #f5f5f5;    
+        --gray:  rgb(94, 88, 115);
+        --gray-100: #ebebeb;
         --sucess: #15ce73; 
+        --primary: #447488;
+        --dark: #4B4B4B;
        
         /* border-radius (default)  */
         --border-radius-default: 10px;        
                     
         /* Font  */
-        --font: "Montserrat";
+        --font: "Nunito";
     }
     * {
         margin: 0;
