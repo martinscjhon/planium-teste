@@ -46,7 +46,7 @@ Após fazer o clone do projeto, entre no diretório do abaixo:
 
 <br />
 
-Para rodar o back, entre no diretório informado, baixe as dependências e execute o comando para dar start ao projeto:
+Para rodar o backend, entre no diretório informado, baixe as dependências e execute o comando para dar start ao projeto:
 ```bash
   cd back
   yarn (instalar as dependências)
@@ -55,7 +55,7 @@ Para rodar o back, entre no diretório informado, baixe as dependências e execu
 
 <br />
 
-Para rodar o front, volte para o diretório principal (planium-teste), acesse o diretório do front, instale as dependências e inicie o projeto:
+Para rodar o frontend, abra um novo terminal, volte para o diretório principal (planium-teste), acesse o diretório do front, instale as dependências e inicie o projeto:
 
 ```bash
   cd ..
