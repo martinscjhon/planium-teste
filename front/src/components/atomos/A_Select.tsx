@@ -1,10 +1,7 @@
-import { FC } from "react";
+import { FC } from 'react'
 
 const A_Select: FC = () => {
-    return (
-        <>
-        </>
-    )
+  return <></>
 }
 
 export { A_Select }

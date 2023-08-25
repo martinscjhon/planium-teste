@@ -1,8 +1,13 @@
-import './App.css'
 import { T_Initial } from './components/templates/T_Initial'
+import { GlobalStyle } from './style/global'
 
 function App() {
-  return <T_Initial />
+  return (
+    <>
+      <GlobalStyle />
+      <T_Initial />
+    </>
+  )
 }
 
 export default App

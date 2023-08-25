@@ -1,10 +1,11 @@
-import { FC } from "react";
+import { FC } from 'react'
+import { ButtonComponent } from './style'
+import { IButtonProps } from '../../utils/interface/components/IButton'
 
-const A_Button: FC = () => {
-    return (
-        <>
-        </>
-    )
+const A_Button: FC<IButtonProps> = ({background, height, title, width}) => {
+  return (
+    <ButtonComponent background={background} width={width} height={height}>{title}</ButtonComponent>
+  )
 }
 
 export { A_Button }

@@ -1,10 +1,7 @@
-import { FC } from "react";
+import { FC } from 'react'
 
 const A_Input: FC = () => {
-    return (
-        <>
-        </>
-    )
+  return <></>
 }
 
 export { A_Input }
