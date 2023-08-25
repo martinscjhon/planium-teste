@@ -76,6 +76,8 @@ const M_Form: FC = () => {
 
     await handleRequest.CreateProposta(payload).then(res => {
       setProposta(res)
+    }).catch(() => {
+      toast.error("Ocorreu um erro ao criar proposta")
     })
   }
 
@@ -107,6 +109,8 @@ const M_Form: FC = () => {
   const handleGetAllPlans = async () => {
     await handleRequest.GetAllPlans().then((response: IPlanos[]) => {
       setPlanos(response)
+    }).catch(() => {
+      toast.error("Ocorreu um erro ao buscar planos")
     })
   }
 
