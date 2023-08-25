@@ -1,6 +1,7 @@
 {
   "extends": "@rocketseat/eslint-config/react",
   "rules": {
+    "camelcase": "off",
     "eslint-disable-next-line react/no-children-prop": "off",
     "no-console": "warn",
     "@typescript-eslint/naming-convention": [

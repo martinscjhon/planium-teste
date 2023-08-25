@@ -1,11 +1,8 @@
 import './App.css'
+import { T_Initial } from './components/templates/T_Initial'
 
 function App() {
-  return (
-    <>
-      <div>oi</div>
-    </>
-  )
+  return <T_Initial />
 }
 
 export default App
